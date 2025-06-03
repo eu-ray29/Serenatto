@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+
+  --font-principal: font-family: "Barlow", sans-serif;
+
+  height: 4000px;
+}
+
+input[type=checkbox]:checked {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked, 
+input[type=checkbox]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+
+body, html {
+overflow-x: hidden;
+}
+
+.banner-1 {
+  background-image: url(./assets/banner-1.png);
+}
+
+.banners {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.bannner-titulo {
+  --bs-bg-opacity: .2;
+}
+
+.banner-2 {
+  background-image: url(./assets/banner-2.png);
+}
+
+.banner-3 {
+  background-image: url(./assets/banner-3.png);
+}
+
+.botao-padrao {
+  background-color: var(--marrom-claro);
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.botao-padrao:hover {
+  background-color: var(--marrom-escuro);
+}
+
+.input-range::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+.rodape {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .bnt {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-body-color: white;
+    --bs-body-color: white;
+
+  }
+
+}
