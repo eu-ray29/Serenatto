@@ -31,5 +31,5 @@ O *Serenatto Café* é um site de cafeteria moderno e responsivo, criado com foc
 
 ---
 
-Projeto feito com fins educacionais, como parte do curso da [Alura](https://www.alura.com.br/).
+Projeto feito por Raynara com fins educacionais, como parte do curso da [Alura](https://www.alura.com.br/).
 
